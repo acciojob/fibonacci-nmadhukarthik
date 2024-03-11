@@ -1,6 +1,9 @@
 function fibonacci(num) {
 // your code here
-	if (num==1) 
+	if(num==0)
+	{ return 0 }
+		
+	else if (num==1) 
 	{ return 0 }
 
 	else if(num==2)
